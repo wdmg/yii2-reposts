@@ -4,10 +4,10 @@ use yii\helpers\Html;
 use yii\grid\GridView;
 use yii\widgets\Pjax;
 /* @var $this yii\web\View */
-/* @var $searchModel wdmg\likes\models\LikesSearch */
+/* @var $searchModel wdmg\reposts\models\RepostsSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = Yii::t('app/modules/likes', 'Likes');
+$this->title = $this->context->module->name;
 $this->params['breadcrumbs'][] = $this->title;
 
 ?>
@@ -29,7 +29,6 @@ $this->params['breadcrumbs'][] = $this->title;
             'user_ip',
             'entity_id',
             'target_id',
-            'is_like',
             'created_at',
             'updated_at',
         ],

@@ -12,7 +12,6 @@ use Yii;
  * @property string $user_ip
  * @property string $entity_id
  * @property int $target_id
- * @property int $is_like
  * @property string $created_at
  * @property string $updated_at
  *

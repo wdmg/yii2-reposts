@@ -1,7 +1,8 @@
 <?php
 
 return [
-    'Re-posts' => "Репосты"
+    'Reposts' => "Репосты",
+    'Repost counting module' => "Модуль подсчета репостов",
 ];
 
 ?>
