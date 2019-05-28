@@ -35,7 +35,7 @@ class Bootstrap implements BootstrapInterface
                 $prefix . '<module:reposts>/<controller:\w+>/' => '<module>/<controller>',
                 $prefix . '<module:reposts>/<controller:\w+>/<action:\w+>' => '<module>/<controller>/<action>',
                 [
-                    'pattern' => $prefix . '<module:likes>/',
+                    'pattern' => $prefix . '<module:reposts>/',
                     'route' => '<module>/reposts/index',
                     'suffix' => '',
                 ], [
