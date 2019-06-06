@@ -8,6 +8,7 @@ use wdmg\reposts\models\RepostsSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
+use yii\filters\AccessControl;
 
 /**
  * RepostsController implements the CRUD actions for Reposts model.
@@ -24,6 +25,15 @@ class RepostsController extends Controller
                 'class' => VerbFilter::className(),
                 'actions' => [
                     'index' => ['get'],
+                ],
+            ],
+            'access' => [
+                'class' => AccessControl::className(),
+                'rules' => [
+                    [
+                        'roles' => ['admin'],
+                        'allow' => true
+                    ],
                 ],
             ],
         ];
