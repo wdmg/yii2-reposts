@@ -1,10 +1,10 @@
 {
   "name": "wdmg/yii2-reposts",
-  "description": "Repost counting module for Yii2",
+  "description": "Repost counting module",
   "keywords": ["yii2", "yii2-reposts", "repost", "reposts", "counting", "wdmg"],
   "type": "yii2-extension",
   "license": "MIT",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "homepage": "https://github.com/wdmg/yii2-reposts",
   "support": {
     "source": "https://github.com/wdmg/yii2-reposts",
