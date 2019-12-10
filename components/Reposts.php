@@ -7,7 +7,7 @@ namespace wdmg\reposts\components;
  * Yii2 Reposts
  *
  * @category        Component
- * @version         0.0.8
+ * @version         0.0.9
  * @author          Alexsander Vyshnyvetskyy <alex.vyshnyvetskyy@gmail.com>
  * @link            https://github.com/wdmg/yii2-reposts
  * @copyright       Copyright (c) 2019 W.D.M.Group, Ukraine
