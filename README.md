@@ -1,10 +1,10 @@
-[![Progress](https://img.shields.io/badge/required-Yii2_v2.0.13-blue.svg)](https://packagist.org/packages/yiisoft/yii2)
-[![Github all releases](https://img.shields.io/github/downloads/wdmg/yii2-reposts/total.svg)](https://GitHub.com/wdmg/yii2-reposts/releases/)
-[![GitHub version](https://badge.fury.io/gh/wdmg/yii2-reposts.svg)](https://github.com/wdmg/yii2-reposts)
+[![Yii2](https://img.shields.io/badge/required-Yii2_v2.0.33-blue.svg)](https://packagist.org/packages/yiisoft/yii2)
+[![Downloads](https://img.shields.io/packagist/dt/wdmg/yii2-reposts.svg)](https://packagist.org/packages/wdmg/yii2-reposts)
+[![Packagist Version](https://img.shields.io/packagist/v/wdmg/yii2-reposts.svg)](https://packagist.org/packages/wdmg/yii2-reposts)
 ![Progress](https://img.shields.io/badge/progress-in_development-red.svg)
 [![GitHub license](https://img.shields.io/github/license/wdmg/yii2-reposts.svg)](https://github.com/wdmg/yii2-reposts/blob/master/LICENSE)
 
-# Yii2 User reposts
+# Yii2 Reposts
 Repost counting module
 
 # Requirements 
@@ -58,6 +58,7 @@ Use the `Module::dashboardNavItems()` method of the module to generate a navigat
     ?>
 
 # Status and version [in progress development]
+* v.0.0.10 - Update README.md and dependencies versions
 * v.0.0.9 - Fixed deprecated class declaration
 * v.0.0.8 - Added extra options to composer.json and navbar menu icon
 * v.0.0.7 - Added choice param for non interactive mode
